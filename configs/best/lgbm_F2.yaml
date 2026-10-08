@@ -1,0 +1,7 @@
+colsample_bytree: 0.600478624339527
+learning_rate: 0.01098822605039574
+min_child_samples: 86
+n_estimators: 286
+num_leaves: 29
+reg_lambda: 0.0026622019703437553
+subsample: 0.5259283560469881

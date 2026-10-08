@@ -1,0 +1,1 @@
+{"params": {"batch_size": 128, "d_model": 64, "dropout": 0.08374337188405319, "hidden": 64, "layers": 1, "lookback": 168, "lr": 0.000535233091822656, "weight_decay": 9.229021116584922e-06}, "seq_cols": ["pm25", "pm10", "o3", "no2", "so2", "co", "temp", "rh", "wind", "pressure", "precip", "clouds", "uv"]}

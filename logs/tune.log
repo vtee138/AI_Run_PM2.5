@@ -1,0 +1,70 @@
+ridge F1: best val RMSE = 26.958 over 50 trials -> configs/best/ridge_F1.yaml
+{'alpha': 15.486867917106606}
+lgbm F1: best val RMSE = 27.210 over 57 trials -> configs/best/lgbm_F1.yaml
+{'learning_rate': 0.02145797154454816, 'num_leaves': 179, 'min_child_samples': 100, 'subsample': 0.5278308273048841, 'colsample_bytree': 0.5639417380520033, 'reg_lambda': 0.014279270743494424, 'n_estimators': 111}
+xgb F1: best val RMSE = 27.229 over 50 trials -> configs/best/xgb_F1.yaml
+{'learning_rate': 0.01076635906730877, 'max_depth': 5, 'min_child_weight': 44.86540396429989, 'subsample': 0.5023824330373828, 'colsample_bytree': 0.4093318726781102, 'reg_lambda': 0.0014370812010745218, 'n_estimators': 267}
+ridge F2: best val RMSE = 26.676 over 50 trials -> configs/best/ridge_F2.yaml
+{'alpha': 15.252739001705118}
+lgbm F2: best val RMSE = 26.622 over 50 trials -> configs/best/lgbm_F2.yaml
+{'learning_rate': 0.01098822605039574, 'num_leaves': 29, 'min_child_samples': 86, 'subsample': 0.5259283560469881, 'colsample_bytree': 0.600478624339527, 'reg_lambda': 0.0026622019703437553, 'n_estimators': 286}
+xgb F2: best val RMSE = 26.605 over 50 trials -> configs/best/xgb_F2.yaml
+{'learning_rate': 0.010246937413345794, 'max_depth': 5, 'min_child_weight': 20.237307786328223, 'subsample': 0.5380857991820007, 'colsample_bytree': 0.5973847627151183, 'reg_lambda': 0.003944796411869254, 'n_estimators': 371}
+ridge F3: best val RMSE = 29.848 over 50 trials -> configs/best/ridge_F3.yaml
+{'alpha': 6458.776563162317}
+lgbm F3: best val RMSE = 27.085 over 50 trials -> configs/best/lgbm_F3.yaml
+{'learning_rate': 0.028648458971223013, 'num_leaves': 19, 'min_child_samples': 17, 'subsample': 0.5460050920339373, 'colsample_bytree': 0.8942706882547498, 'reg_lambda': 1.4916255970205619, 'n_estimators': 150}
+xgb F3: best val RMSE = 27.247 over 50 trials -> configs/best/xgb_F3.yaml
+{'learning_rate': 0.014461053771956209, 'max_depth': 5, 'min_child_weight': 34.16156398077777, 'subsample': 0.8617065309074194, 'colsample_bytree': 0.9972450636133927, 'reg_lambda': 0.004916052673564173, 'n_estimators': 288}
+ridge F4: best val RMSE = 26.083 over 50 trials -> configs/best/ridge_F4.yaml
+{'alpha': 1554.6366680730962}
+lgbm F4: best val RMSE = 26.122 over 50 trials -> configs/best/lgbm_F4.yaml
+{'learning_rate': 0.010152631452750367, 'num_leaves': 15, 'min_child_samples': 38, 'subsample': 0.655884163097304, 'colsample_bytree': 0.426585749969171, 'reg_lambda': 0.2925226002489747, 'n_estimators': 579}
+xgb F4: best val RMSE = 26.048 over 50 trials -> configs/best/xgb_F4.yaml
+{'learning_rate': 0.016809767257276603, 'max_depth': 4, 'min_child_weight': 44.46153826914362, 'subsample': 0.5324671637221293, 'colsample_bytree': 0.4016241440028225, 'reg_lambda': 0.0918386236483878, 'n_estimators': 352}
+ridge F5: best val RMSE = 28.346 over 50 trials -> configs/best/ridge_F5.yaml
+{'alpha': 9758.150983594542}
+lgbm F5: best val RMSE = 26.882 over 50 trials -> configs/best/lgbm_F5.yaml
+{'learning_rate': 0.022447270195027094, 'num_leaves': 17, 'min_child_samples': 40, 'subsample': 0.6909023410415045, 'colsample_bytree': 0.8416235203959008, 'reg_lambda': 0.005601033158584192, 'n_estimators': 216}
+xgb F5: best val RMSE = 26.877 over 50 trials -> configs/best/xgb_F5.yaml
+{'learning_rate': 0.013330309585386859, 'max_depth': 5, 'min_child_weight': 39.98251174669648, 'subsample': 0.5453050943539058, 'colsample_bytree': 0.8168665770563233, 'reg_lambda': 0.2950821798136655, 'n_estimators': 287}
+lstm F1: best val RMSE = 26.948 over 30 trials -> configs/best/lstm_F1.yaml
+{'lookback': 72, 'hidden': 256, 'd_model': 128, 'layers': 3, 'dropout': 0.30886053985476725, 'lr': 0.0028467333401306573, 'weight_decay': 0.0012878212129006016, 'batch_size': 256}
+gru F1: best val RMSE = 26.873 over 30 trials -> configs/best/gru_F1.yaml
+{'lookback': 72, 'hidden': 128, 'd_model': 128, 'layers': 3, 'dropout': 0.31568233923871036, 'lr': 0.0003017398868656808, 'weight_decay': 2.8779934048860782e-06, 'batch_size': 128}
+tcn F1: best val RMSE = 26.966 over 30 trials -> configs/best/tcn_F1.yaml
+{'lookback': 72, 'hidden': 64, 'd_model': 128, 'layers': 3, 'dropout': 0.05641747028521797, 'lr': 0.0005675371524674734, 'weight_decay': 2.9382115250111256e-06, 'batch_size': 512}
+transformer F1: best val RMSE = 27.229 over 30 trials -> configs/best/transformer_F1.yaml
+{'lookback': 168, 'hidden': 256, 'd_model': 64, 'layers': 1, 'dropout': 0.3256125507068889, 'lr': 0.00029315623409960026, 'weight_decay': 0.003720308742581288, 'batch_size': 512}
+lstm F2: best val RMSE = 26.471 over 30 trials -> configs/best/lstm_F2.yaml
+{'lookback': 168, 'hidden': 256, 'd_model': 128, 'layers': 3, 'dropout': 0.31221108257260066, 'lr': 0.002739886787828167, 'weight_decay': 1.0805834783572637e-06, 'batch_size': 512}
+gru F2: best val RMSE = 26.446 over 30 trials -> configs/best/gru_F2.yaml
+{'lookback': 72, 'hidden': 256, 'd_model': 128, 'layers': 3, 'dropout': 0.22481506756950118, 'lr': 0.0023144717420260108, 'weight_decay': 8.478904053295429e-06, 'batch_size': 512}
+tcn F2: best val RMSE = 26.461 over 30 trials -> configs/best/tcn_F2.yaml
+{'lookback': 168, 'hidden': 64, 'd_model': 128, 'layers': 3, 'dropout': 0.11248070870390982, 'lr': 0.0006317352717823452, 'weight_decay': 0.00014527868851415602, 'batch_size': 512}
+transformer F2: best val RMSE = 26.987 over 30 trials -> configs/best/transformer_F2.yaml
+{'lookback': 24, 'hidden': 256, 'd_model': 64, 'layers': 1, 'dropout': 0.16715640841693719, 'lr': 0.003526497185412592, 'weight_decay': 0.003106272547302278, 'batch_size': 256}
+lstm F3: best val RMSE = 27.809 over 30 trials -> configs/best/lstm_F3.yaml
+{'lookback': 168, 'hidden': 64, 'd_model': 128, 'layers': 3, 'dropout': 0.1472900589643187, 'lr': 0.0004425981099100202, 'weight_decay': 0.0021132613004985748, 'batch_size': 512}
+gru F3: best val RMSE = 28.198 over 30 trials -> configs/best/gru_F3.yaml
+{'lookback': 72, 'hidden': 64, 'd_model': 64, 'layers': 3, 'dropout': 0.3083554110962752, 'lr': 0.0001356721646414487, 'weight_decay': 1.1331189451726153e-05, 'batch_size': 256}
+tcn F3: best val RMSE = 29.832 over 30 trials -> configs/best/tcn_F3.yaml
+{'lookback': 168, 'hidden': 256, 'd_model': 64, 'layers': 3, 'dropout': 0.05773697646346723, 'lr': 0.004215932971523634, 'weight_decay': 4.6118954169486915e-06, 'batch_size': 128}
+transformer F3: best val RMSE = 28.409 over 30 trials -> configs/best/transformer_F3.yaml
+{'lookback': 72, 'hidden': 128, 'd_model': 128, 'layers': 3, 'dropout': 0.08661007606552204, 'lr': 0.00012048728756190452, 'weight_decay': 1.0316817849132495e-06, 'batch_size': 128}
+lstm F4: best val RMSE = 25.925 over 30 trials -> configs/best/lstm_F4.yaml
+{'lookback': 24, 'hidden': 256, 'd_model': 128, 'layers': 3, 'dropout': 0.220125199203863, 'lr': 0.0003212621642933546, 'weight_decay': 5.059360404942811e-05, 'batch_size': 256}
+gru F4: best val RMSE = 25.854 over 30 trials -> configs/best/gru_F4.yaml
+{'lookback': 168, 'hidden': 256, 'd_model': 128, 'layers': 2, 'dropout': 0.3572028291164423, 'lr': 0.0007407376797615936, 'weight_decay': 3.4269013998226596e-05, 'batch_size': 512}
+tcn F4: best val RMSE = 26.341 over 30 trials -> configs/best/tcn_F4.yaml
+{'lookback': 72, 'hidden': 256, 'd_model': 64, 'layers': 3, 'dropout': 0.13721413246622116, 'lr': 0.0007492767361591744, 'weight_decay': 2.41175520242293e-05, 'batch_size': 128}
+transformer F4: best val RMSE = 26.348 over 30 trials -> configs/best/transformer_F4.yaml
+{'lookback': 72, 'hidden': 64, 'd_model': 64, 'layers': 1, 'dropout': 0.1018886920239009, 'lr': 0.0009167599465456541, 'weight_decay': 0.003275853023083027, 'batch_size': 256}
+lstm F5: best val RMSE = 28.052 over 30 trials -> configs/best/lstm_F5.yaml
+{'lookback': 168, 'hidden': 64, 'd_model': 64, 'layers': 1, 'dropout': 0.08374337188405319, 'lr': 0.000535233091822656, 'weight_decay': 9.229021116584922e-06, 'batch_size': 128}
+gru F5: best val RMSE = 27.714 over 30 trials -> configs/best/gru_F5.yaml
+{'lookback': 168, 'hidden': 64, 'd_model': 128, 'layers': 2, 'dropout': 0.2009812165875935, 'lr': 0.0016843243182965127, 'weight_decay': 1.113824153862583e-05, 'batch_size': 512}
+tcn F5: best val RMSE = 39.023 over 30 trials -> configs/best/tcn_F5.yaml
+{'lookback': 24, 'hidden': 128, 'd_model': 64, 'layers': 3, 'dropout': 0.3598540619766705, 'lr': 0.00014582113613038382, 'weight_decay': 5.4475485635019145e-06, 'batch_size': 512}
+transformer F5: best val RMSE = 27.153 over 30 trials -> configs/best/transformer_F5.yaml
+{'lookback': 72, 'hidden': 128, 'd_model': 64, 'layers': 3, 'dropout': 0.39619903007091356, 'lr': 0.0010670089104694305, 'weight_decay': 0.00033253963229224284, 'batch_size': 256}

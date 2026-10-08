@@ -1,0 +1,1 @@
+{"params": {"batch_size": 128, "d_model": 128, "dropout": 0.08661007606552204, "hidden": 128, "layers": 3, "lookback": 72, "lr": 0.00012048728756190452, "weight_decay": 1.0316817849132495e-06}, "seq_cols": ["pm25", "pm10", "o3", "no2", "so2", "co"]}

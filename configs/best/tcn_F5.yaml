@@ -1,0 +1,8 @@
+batch_size: 512
+d_model: 64
+dropout: 0.3598540619766705
+hidden: 128
+layers: 3
+lookback: 24
+lr: 0.00014582113613038382
+weight_decay: 5.4475485635019145e-06

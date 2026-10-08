@@ -1,0 +1,1 @@
+{"params": {"batch_size": 512, "d_model": 128, "dropout": 0.11248070870390982, "hidden": 64, "layers": 3, "lookback": 168, "lr": 0.0006317352717823452, "weight_decay": 0.00014527868851415602}, "seq_cols": ["pm25"]}
